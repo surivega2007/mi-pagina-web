@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="Guía paso a paso">
-  <circle cx="9" cy="10" r="4" fill="#63E3C8"/>
-  <circle cx="9" cy="22" r="4" fill="#FFB65C"/>
-  <circle cx="9" cy="33" r="4" fill="none" stroke="#8FA8B5" stroke-width="2"/>
-  <path d="M18 10h17M18 22h13M18 33h9" stroke="#EAF0F2" stroke-width="2.4" stroke-linecap="round"/>
-</svg>
