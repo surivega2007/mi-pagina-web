@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="Iluminación graduable">
+  <circle cx="20" cy="19" r="8" fill="#FFB65C" opacity=".85"/>
+  <g stroke="#63E3C8" stroke-width="2.4" stroke-linecap="round">
+    <path d="M20 3v4M20 31v4M6 19h4M30 19h4M10 9l3 3M27 26l3 3M30 9l-3 3M13 26l-3 3"/>
+  </g>
+  <path d="M15 34h10" stroke="#EAF0F2" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
