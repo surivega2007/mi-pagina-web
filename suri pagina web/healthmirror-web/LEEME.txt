@@ -1,0 +1,62 @@
+HEALTHMIRROR PRO 3D — SITIO WEB DEL PROYECTO
+Suri Cristina Bohórquez Vega · Ficha 3489371 · SENA · 2026
+
+
+CÓMO ABRIRLO
+
+1. Descomprime la carpeta completa.
+2. Haz doble clic en "index.html". Se abre en cualquier navegador.
+   No necesita internet para funcionar (solo lo usa para cargar las
+   tipografías de Google; sin conexión se ven con letras de respaldo).
+
+
+CONTENIDO
+
+index.html        Estructura del sitio (HTML)
+css/estilos.css   Diseño, colores, animaciones y responsive
+js/app.js         Las interacciones (JavaScript)
+img/              Imágenes vectoriales (SVG) hechas para el proyecto
+                  logo.svg, prototipo.svg, ico-*.svg, favicon.svg
+
+
+LAS DOS INTERACCIONES QUE PIDE EL TALLER
+
+BOTÓN 1 — "Servicio al cliente"
+  Abre una ventana con un formulario de contacto.
+  · Valida nombre, correo, teléfono y mensaje (muestra el error debajo
+    del campo si algo está mal escrito).
+  · Contador de caracteres del mensaje.
+  · Al enviar, genera un número de caso (HM-####) y muestra el resumen
+    con una animación de confirmación.
+
+BOTÓN 2 — "Pedido, factura y pago"
+  Flujo completo en cuatro pasos:
+  1. Pedido  → escoge modelos y cantidades; calcula el subtotal en vivo.
+  2. Datos   → nombre, documento, correo, ciudad y dirección (validados).
+               La ciudad define el costo de envío.
+  3. Factura → genera número de factura, fecha, ítems, IVA del 19 %,
+               envío y total a pagar. Se elige el medio de pago.
+  4. Pago    → animación de validación, mensaje de pago aprobado con
+               número de autorización y fecha estimada de entrega.
+               El botón "Imprimir factura" abre el diálogo de impresión
+               y solo imprime la factura.
+
+
+DETALLES TÉCNICOS
+
+· Responsive: se adapta a computador, tablet y celular (menú hamburguesa
+  desde 760 px hacia abajo). Los colores son los mismos en todos los
+  tamaños; nada cambia de paleta al reducir la pantalla.
+· Paleta: #0F1B24 (fondo), #16303F (superficies), #63E3C8 (LED),
+  #FFB65C (luz cálida), #EAF0F2 (texto), #F1F5F6 (secciones claras).
+  Están definidas como variables al inicio de css/estilos.css: si cambias
+  una variable, cambia en todo el sitio sin romper nada.
+· Animaciones: entrada del espejo, halo LED que respira, destello en el
+  botón principal, aparición de tarjetas al desplazarse, transiciones
+  entre pasos del pedido y check animado de confirmación.
+  Se desactivan solas si el sistema del usuario pide menos movimiento.
+· Accesibilidad: foco visible con teclado, cierre con la tecla Esc,
+  textos alternativos en las imágenes y etiquetas ARIA en los modales.
+
+Aviso: es un sitio de demostración académica. Los pagos, facturas y datos
+de contacto no son reales.
